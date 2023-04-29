@@ -6,7 +6,7 @@ Verwendung der Library <MPU9250.h> von GIT: https://github.com/hideakitai/MPU925
 Verwendung der Library <Software Serial.h> DOC: https://docs.arduino.cc/learn/built-in-libraries/software-serial
 Verwendung der Library <Adafruit_Neopixel> von GIT: https://github.com/adafruit/Adafruit_NeoPixel_ZeroDMA
  
-Initialisierung aller Variablen
+<pInitialisierung aller Variablenp>
 In void setup ()  Objekt Initialisierung:
   *Initialisierung der LED	
   *Initialisierung des I2C-Protokolls
