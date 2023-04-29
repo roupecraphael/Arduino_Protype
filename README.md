@@ -9,19 +9,19 @@
 ## Initialisierung aller Variablen<p>
 ### In void setup ()  Objekt Initialisierung:
 <ul>
-  <li><p>*Initialisierung der LED</p>	
-  <p>*Initialisierung des I2C-Protokolls</p>
-  <p>*Initialisierung des Serial-Protokolls</p>
-  <p>*Initialisierung des Bluetoothserial- Protokolls</p>
-  <p>*Initialisierung des MPU-Sensors</p>
-  <p>*Initialisierung der IMU Sensoreinstellungen mithilfe des Objektes imusetting</p>
+ <li>*Initialisierung der LED</li>
+ <li>*Initialisierung des I2C-Protokolls</li>
+ <li>*Initialisierung des Serial-Protokolls</li>
+ <li>*Initialisierung des Bluetoothserial- Protokolls</li>
+ <li>*Initialisierung des MPU-Sensors</li>
+ <li>*Initialisierung der IMU Sensoreinstellungen mithilfe des Objektes imusetting</li>
     <ul>
-      <li> <p>-Setzen des Bias</p>
-          <p>-Setzen der Magnetischen Deklination</p>
-          <p>-Callibration des Magnetometers</p>
-          <p>-Kallibration des Accelerometers </p>
-          <p>-Kallibration des Gyrscopes</p>
-          <p>-Setzen der setting Parameters</p></li>
+     <li>-Setzen des Bias</li>
+     <li>-Setzen der Magnetischen Deklination</li>
+     <li>-Callibration des Magnetometers</li>
+     <li>-Kallibration des Accelerometers </li>
+     <li>-Kallibration des Gyrscopes</li>
+     <li>-Setzen der setting Parameters</li>
     </ul>
   </li>
 </ul>
@@ -29,25 +29,20 @@
    
 ### In void loop()
 <ul>
-  <li>p>*Objekt timer() trackt 0.1 Sekunde intern die Zeit</p>
-  <p>*Objekt lesen() tut</p>
-     <p>-Orientierung im Raum feststellen</p>
-     <p>-Wenn möglich registrierte Daten aus MPU9250 auslesen</p>
-  <p>*Objekt reward() </p>
-     <p>-Orientierung im Raum auslesen</p>
-     <p>-Abhängig von Orientierung im Raum Bewegung anhand des Objektes rewardfunction Feedback über LED ausgeben</p>
-  <p>*Objekt conversion() konvertiert float in string</p>
-  <p>*Objekt usb()/bluetooth() speichert in buffer und schickt an Serial und bluetooth port</p>g</p>
-    <ul>
-      <li> <p>-Setzen des Bias</p>
-          <p>-Setzen der Magnetischen Deklination</p>
-          <p>-Callibration des Magnetometers</p>
-          <p>-Kallibration des Accelerometers </p>
-          <p>-Kallibration des Gyrscopes</p>
-          <p>-Setzen der setting Parameters</p></li>
-    </ul>
-  </li>
-</ul>
+ <li>*Objekt timer() trackt 0.1 Sekunde intern die Zeit</li>
+ <li>*Objekt lesen() tut</li>
+  <ul>
+   <li>-Orientierung im Raum feststellen</li>
+   <li>-Wenn möglich registrierte Daten aus MPU9250 auslesen</li>
+  </ul>
+ <li>*Objekt reward() </li>
+  <ul>
+   <li>-Orientierung im Raum auslesen</li>
+   <li>-Abhängig von Orientierung im Raum Bewegung anhand des Objektes rewardfunction Feedback über LED ausgeben</li>
+  </ul>
+ <li>*Objekt conversion() konvertiert float in string</li>
+ <li>*Objekt usb()/bluetooth() data transmission of buffer to Serial or bluetooth port</li>
+
   
 
 
