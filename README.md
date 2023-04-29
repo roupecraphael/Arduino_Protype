@@ -2,26 +2,26 @@
  Arudino Rep for ARDUINO UNO Rev3 - FH Project - Protoype IMU Sensor with Bluetooth data transmission
 
 ## Software 
-<p>Verwendung der Library <MPU9250.h> von GIT: https://github.com/hideakitai/MPU9250 </p>
-<p>Verwendung der Library <Software Serial.h> DOC: https://docs.arduino.cc/learn/built-in-libraries/software-serial</p>
-<p>Verwendung der Library <Adafruit_Neopixel> von GIT: https://github.com/adafruit/Adafruit_NeoPixel_ZeroDMA</p>
+<p>Use Library <MPU9250.h> von GIT: https://github.com/hideakitai/MPU9250 </p>
+<p>Use Library <Software Serial.h> DOC: https://docs.arduino.cc/learn/built-in-libraries/software-serial</p>
+<p>Use Library <Adafruit_Neopixel> von GIT: https://github.com/adafruit/Adafruit_NeoPixel_ZeroDMA</p>
  
 ## Initialisierung aller Variablen<p>
-### In void setup ()  Objekt Initialisierung:
+### In void setup ()  Objekt initialize():
 <ul>
- <li>*Initialisierung der LED</li>
- <li>*Initialisierung des I2C-Protokolls</li>
- <li>*Initialisierung des Serial-Protokolls</li>
- <li>*Initialisierung des Bluetoothserial- Protokolls</li>
- <li>*Initialisierung des MPU-Sensors</li>
- <li>*Initialisierung der IMU Sensoreinstellungen mithilfe des Objektes imusetting</li>
+ <li>*initialize LED</li>
+ <li>*initialize I2C-Protocol</li>
+ <li>*initialize Serial-Protocol</li>
+ <li>*initialize Bluetoothserial- Protocol</li>
+ <li>*initialize MPU-Sensor</li>
+ <li>*initialize IMU seting via object imusetting</li>
     <ul>
-     <li>-Setzen des Bias</li>
-     <li>-Setzen der Magnetischen Deklination</li>
-     <li>-Callibration des Magnetometers</li>
-     <li>-Kallibration des Accelerometers </li>
-     <li>-Kallibration des Gyrscopes</li>
-     <li>-Setzen der setting Parameters</li>
+     <li>-set Bias</li>
+     <li>-set magnetic Declination</li>
+     <li>-Callibration of Magnetometers</li>
+     <li>-Callibration of Accelerometers </li>
+     <li>-Callibration of Gyrscopes</li>
+     <li>-set imu setting parameters</li>
     </ul>
   </li>
 </ul>
@@ -29,18 +29,18 @@
    
 ### In void loop()
 <ul>
- <li>*Objekt timer() trackt 0.1 Sekunde intern die Zeit</li>
- <li>*Objekt lesen() tut</li>
+ <li>*Objekt timer() tracks time internaly each 0.1 sec</li>
+ <li>*Objekt lesen() does</li>
   <ul>
-   <li>-Orientierung im Raum feststellen</li>
-   <li>-Wenn möglich registrierte Daten aus MPU9250 auslesen</li>
+   <li>-set Orientation </li>
+   <li>-if possible read data from MPU Sensor</li>
   </ul>
  <li>*Objekt reward() </li>
   <ul>
-   <li>-Orientierung im Raum auslesen</li>
-   <li>-Abhängig von Orientierung im Raum Bewegung anhand des Objektes rewardfunction Feedback über LED ausgeben</li>
+   <li>-reads Orientation </li>
+   <li>-depending on Orientation reward function chooses to provide feedback via LED</li>
   </ul>
- <li>*Objekt conversion() konvertiert float in string</li>
+ <li>*Objekt conversion() converts float in string</li>
  <li>*Objekt usb()/bluetooth() data transmission of buffer to Serial or bluetooth port</li>
 
   
