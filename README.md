@@ -4,7 +4,7 @@
 ## Software 
 <p>include Library <MPU9250.h> von GIT: https://github.com/hideakitai/MPU9250 
 </p>
-<p>include Library <Adafruit_GTX.h> von GIT: https://github.com/adafruit/Adafruit_NeoPixel_ZeroDMA
+<p>include Library Adafruit_GTX.h von GIT: https://github.com/adafruit/Adafruit_NeoPixel_ZeroDMA
 </p>
 <p>include Library <"Adafruit_LEDBackpack.h> von GIT: 
 https://github.com/adafruit/Adafruit_LED_Backpack
