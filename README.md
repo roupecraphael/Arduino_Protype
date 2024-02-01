@@ -24,12 +24,12 @@ https://github.com/adafruit/Adafruit_LED_Backpack
      <li>initialize MPU-Sensor</li>
      <li>initialize IMU seting via function imusetting</li>
         <ul>
-         <li>-set Bias</li>
-         <li>-set magnetic Declination</li>
-         <li>-Callibration of Magnetometers</li>
-         <li>-Callibration of Accelerometers </li>
-         <li>-Callibration of Gyrscopes</li>
-         <li>-set imu setting parameters (Standard)</li>
+         <li>set Bias</li>
+         <li>set magnetic Declination</li>
+         <li>Callibration of Magnetometers</li>
+         <li>Callibration of Accelerometers </li>
+         <li>Callibration of Gyrscopes</li>
+         <li>set imu setting parameters (Standard)</li>
         </ul>
     </ul>
   </li>
@@ -38,16 +38,16 @@ https://github.com/adafruit/Adafruit_LED_Backpack
    
 ### In void loop()
 <ul>
- <li>*Objekt timer() tracks time internaly </li>
- <li>*Objekt lesen() </li>
+ <li>Objekt timer() tracks time internaly </li>
+ <li>Objekt lesen() </li>
   <ul>
    <li>-set Orientation based on selfdeveloped algorithm </li>
    <li>-if possible read data from MPU Sensor</li>
   </ul>
- <li>*Objekt reward() </li>
+ <li>Objekt reward() </li>
   <ul>
-   <li>-reads Orientation </li>
-   <li>-depending on Orientation reward function chooses to provide feedback via a RGB-Diode and displays sucessfull Squatscount on a 7 Segment Display </li>
+   <li>reads Orientation </li>
+   <li>depending on Orientation reward function chooses to provide feedback via a RGB-Diode and displays sucessfull Squatscount on a 7 Segment Display </li>
   </ul>
 
  
