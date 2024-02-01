@@ -1,5 +1,6 @@
 # Arduino_Protype
- Arudino Rep for ARDUINO UNO Rev3 - FH Project - Final Version IMU Sensor with RGB Color Output and 7 Segment LED
+ Arudino Rep for ARDUINO UNO Rev3 - FH Project - Final Version IMU Sensor with RGB Color Output and 7 Segment LED.
+ <p></p>
  Die vollständige Dokumentation zu allen Bestandteilen sowohl Hardware als auch Software ist auf Deutsch im Ordner dokumentation einsehbar
 
 ## Software 
