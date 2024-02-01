@@ -22,7 +22,7 @@ https://github.com/adafruit/Adafruit_LED_Backpack
      <li>initialize Serial-Protocol</li>
      <li>initialize 7 Segment Display</li>
      <li>initialize MPU-Sensor</li>
-     <li>initialize IMU seting via object imusetting</li>
+     <li>initialize IMU seting via function imusetting</li>
         <ul>
          <li>-set Bias</li>
          <li>-set magnetic Declination</li>
