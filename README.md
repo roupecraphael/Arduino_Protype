@@ -1,5 +1,5 @@
 # Arduino_Protype
- Arudino Rep for ARDUINO UNO Rev3 - FH Project - Protoype IMU Sensor with Bluetooth data transmission
+ Arudino Rep for ARDUINO UNO Rev3 - FH Project - Final Version IMU Sensor with RGB Color Output and 7 Segment LED
 
 ## Software 
 <p>include Library <MPU9250.h> von GIT: https://github.com/hideakitai/MPU9250 
@@ -38,8 +38,8 @@ https://github.com/adafruit/Adafruit_LED_Backpack
    
 ### In void loop()
 <ul>
- <li>*Objekt timer() tracks time internaly each 0.1 sec</li>
- <li>*Objekt lesen() does</li>
+ <li>*Objekt timer() tracks time internaly </li>
+ <li>*Objekt lesen() </li>
   <ul>
    <li>-set Orientation based on selfdeveloped algorithm </li>
    <li>-if possible read data from MPU Sensor</li>
